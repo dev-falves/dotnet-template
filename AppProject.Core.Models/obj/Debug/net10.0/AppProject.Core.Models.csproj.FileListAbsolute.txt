@@ -9,3 +9,15 @@ C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Co
 C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\refint\AppProject.Core.Models.dll
 C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.pdb
 C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\ref\AppProject.Core.Models.dll
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\.xml
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Exceptions.dll
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Models.dll
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Resources.dll
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Utils.dll
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Exceptions.pdb
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Models.pdb
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Resources.pdb
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Utils.pdb
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.csproj.AssemblyReference.cache
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.sourcelink.json
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProje.AE0182A3.Up2Date

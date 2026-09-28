@@ -527,6 +527,9 @@
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
         }
       },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      },
       "AppProject.Core.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1242,6 +1245,9 @@
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
         }
+      },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
       },
       "AppProject.Core.Models/1.0.0": {
         "type": "project",
@@ -2453,6 +2459,31 @@
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
     },
+    "StyleCop.Analyzers/1.1.118": {
+      "sha512": "Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.1.118",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "analyzers/dotnet/cs/de-DE/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/en-GB/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/es-MX/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/fr-FR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pl-PL/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ru-RU/StyleCop.Analyzers.resources.dll",
+        "stylecop.analyzers.1.1.118.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "AppProject.Core.Models/1.0.0": {
       "type": "project",
       "path": "../AppProject.Core.Models/AppProject.Core.Models.csproj",
@@ -2531,7 +2562,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 10.0.11",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 10.0.11",
       "Microsoft.NET.ILLink.Tasks >= 10.0.11",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.11"
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.11",
+      "StyleCop.Analyzers >= 1.1.118"
     ]
   },
   "packageFolders": {
@@ -2632,6 +2664,12 @@
             "target": "Package",
             "version": "[10.0.11, )",
             "autoReferenced": true
+          },
+          "StyleCop.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.1.118, )"
           }
         },
         "imports": [

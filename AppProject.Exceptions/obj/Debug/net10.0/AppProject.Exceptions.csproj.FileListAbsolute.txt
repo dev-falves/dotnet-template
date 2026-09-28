@@ -9,3 +9,9 @@ C:\course\dotnet-template\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exc
 C:\course\dotnet-template\AppProject.Exceptions\obj\Debug\net10.0\refint\AppProject.Exceptions.dll
 C:\course\dotnet-template\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.pdb
 C:\course\dotnet-template\AppProject.Exceptions\obj\Debug\net10.0\ref\AppProject.Exceptions.dll
+C:\course\dotnet-template\AppProject.Exceptions\bin\Debug\net10.0\.xml
+C:\course\dotnet-template\AppProject.Exceptions\bin\Debug\net10.0\AppProject.Utils.dll
+C:\course\dotnet-template\AppProject.Exceptions\bin\Debug\net10.0\AppProject.Utils.pdb
+C:\course\dotnet-template\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.csproj.AssemblyReference.cache
+C:\course\dotnet-template\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.sourcelink.json
+C:\course\dotnet-template\AppProject.Exceptions\obj\Debug\net10.0\AppProje.E23EDA2A.Up2Date

@@ -8,6 +8,10 @@
     ".NETCoreApp,Version=v10.0": {
       "AppProject.Web.Shared/1.0.0": {
         "dependencies": {
+          "AppProject.Utils": "1.0.0",
+          "AppProject.Web.ApiClient": "1.0.0",
+          "AppProject.Web.Framework": "1.0.0",
+          "AppProject.Web.Models": "1.0.0",
           "Microsoft.AspNetCore.Components.Web": "10.0.11"
         },
         "runtime": {
@@ -218,6 +222,87 @@
             "fileVersion": "10.0.1126.37416"
           }
         }
+      },
+      "AppProject.Exceptions/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Exceptions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Models/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Resources/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Resources.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Utils/1.0.0": {
+        "runtime": {
+          "AppProject.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Web.ApiClient/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0",
+          "AppProject.Web.Models": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Web.ApiClient.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Web.Framework/1.0.0": {
+        "dependencies": {
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0",
+          "AppProject.Web.ApiClient": "1.0.0",
+          "AppProject.Web.Models": "1.0.0",
+          "Microsoft.AspNetCore.Components.Web": "10.0.11"
+        },
+        "runtime": {
+          "AppProject.Web.Framework.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Web.Models/1.0.0": {
+        "dependencies": {
+          "AppProject.Models": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Web.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -352,6 +437,41 @@
       "sha512": "sha512-tutE0VjmO2q2ib+sm6dAnIGKVOWPGYnv5baVRZl1+mgfLYLgdVeMKubvVsqTy3uXHt1A6bAQ9dyP1sRYPahWjw==",
       "path": "microsoft.jsinterop/10.0.11",
       "hashPath": "microsoft.jsinterop.10.0.11.nupkg.sha512"
+    },
+    "AppProject.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Web.ApiClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Web.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Web.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -9,3 +9,15 @@ C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\obj\Debug\net10.
 C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\obj\Debug\net10.0\refint\AppProject.Core.Infraestructure.Email.dll
 C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\obj\Debug\net10.0\AppProject.Core.Infraestructure.Email.pdb
 C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\obj\Debug\net10.0\ref\AppProject.Core.Infraestructure.Email.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\.xml
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\AppProject.Core.Contracts.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\AppProject.Exceptions.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\AppProject.Resources.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\AppProject.Utils.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\AppProject.Core.Contracts.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\AppProject.Exceptions.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\AppProject.Resources.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\bin\Debug\net10.0\AppProject.Utils.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\obj\Debug\net10.0\AppProject.Core.Infraestructure.Email.csproj.AssemblyReference.cache
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\obj\Debug\net10.0\AppProject.Core.Infraestructure.Email.sourcelink.json
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Email\obj\Debug\net10.0\AppProje.EB8637EC.Up2Date

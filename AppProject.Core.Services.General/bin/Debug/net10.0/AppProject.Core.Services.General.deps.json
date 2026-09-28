@@ -7,14 +7,239 @@
   "targets": {
     ".NETCoreApp,Version=v10.0": {
       "AppProject.Core.Services.General/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Core.Services": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
         "runtime": {
           "AppProject.Core.Services.General.dll": {}
+        }
+      },
+      "AppProject.Core.Contracts/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Infraestructure.AI/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infraestructure.AI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Infraestructure.Database/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infraestructure.Database.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Infraestructure.Email/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infraestructure.Email.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Infraestructure.Jobs/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infraestructure.Jobs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Models/1.0.0": {
+        "dependencies": {
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Models": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Models.General/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Models.General.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Services/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Infraestructure.AI": "1.0.0",
+          "AppProject.Core.Infraestructure.Database": "1.0.0",
+          "AppProject.Core.Infraestructure.Email": "1.0.0",
+          "AppProject.Core.Infraestructure.Jobs": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Models": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Exceptions/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Exceptions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Models/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Resources/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Resources.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Utils/1.0.0": {
+        "runtime": {
+          "AppProject.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "AppProject.Core.Services.General/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Infraestructure.AI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Infraestructure.Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Infraestructure.Email/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Infraestructure.Jobs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Models.General/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

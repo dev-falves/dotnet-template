@@ -9,3 +9,13 @@ C:\course\dotnet-template\AppProject.Web.Models.General\obj\Debug\net10.0\AppPro
 C:\course\dotnet-template\AppProject.Web.Models.General\obj\Debug\net10.0\refint\AppProject.Web.Models.General.dll
 C:\course\dotnet-template\AppProject.Web.Models.General\obj\Debug\net10.0\AppProject.Web.Models.General.pdb
 C:\course\dotnet-template\AppProject.Web.Models.General\obj\Debug\net10.0\ref\AppProject.Web.Models.General.dll
+C:\course\dotnet-template\AppProject.Web.Models.General\bin\Debug\net10.0\.xml
+C:\course\dotnet-template\AppProject.Web.Models.General\bin\Debug\net10.0\AppProject.Models.dll
+C:\course\dotnet-template\AppProject.Web.Models.General\bin\Debug\net10.0\AppProject.Utils.dll
+C:\course\dotnet-template\AppProject.Web.Models.General\bin\Debug\net10.0\AppProject.Web.Models.dll
+C:\course\dotnet-template\AppProject.Web.Models.General\bin\Debug\net10.0\AppProject.Utils.pdb
+C:\course\dotnet-template\AppProject.Web.Models.General\bin\Debug\net10.0\AppProject.Web.Models.pdb
+C:\course\dotnet-template\AppProject.Web.Models.General\bin\Debug\net10.0\AppProject.Models.pdb
+C:\course\dotnet-template\AppProject.Web.Models.General\obj\Debug\net10.0\AppProject.Web.Models.General.csproj.AssemblyReference.cache
+C:\course\dotnet-template\AppProject.Web.Models.General\obj\Debug\net10.0\AppProject.Web.Models.General.sourcelink.json
+C:\course\dotnet-template\AppProject.Web.Models.General\obj\Debug\net10.0\AppProje.10AC1371.Up2Date

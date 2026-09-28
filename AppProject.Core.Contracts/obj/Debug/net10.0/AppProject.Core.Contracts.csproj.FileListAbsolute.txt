@@ -9,3 +9,9 @@ C:\course\dotnet-template\AppProject.Core.Contracts\obj\Debug\net10.0\AppProject
 C:\course\dotnet-template\AppProject.Core.Contracts\obj\Debug\net10.0\refint\AppProject.Core.Contracts.dll
 C:\course\dotnet-template\AppProject.Core.Contracts\obj\Debug\net10.0\AppProject.Core.Contracts.pdb
 C:\course\dotnet-template\AppProject.Core.Contracts\obj\Debug\net10.0\ref\AppProject.Core.Contracts.dll
+C:\course\dotnet-template\AppProject.Core.Contracts\bin\Debug\net10.0\.xml
+C:\course\dotnet-template\AppProject.Core.Contracts\bin\Debug\net10.0\AppProject.Utils.dll
+C:\course\dotnet-template\AppProject.Core.Contracts\bin\Debug\net10.0\AppProject.Utils.pdb
+C:\course\dotnet-template\AppProject.Core.Contracts\obj\Debug\net10.0\AppProject.Core.Contracts.csproj.AssemblyReference.cache
+C:\course\dotnet-template\AppProject.Core.Contracts\obj\Debug\net10.0\AppProject.Core.Contracts.sourcelink.json
+C:\course\dotnet-template\AppProject.Core.Contracts\obj\Debug\net10.0\AppProje.CD3C6D5E.Up2Date

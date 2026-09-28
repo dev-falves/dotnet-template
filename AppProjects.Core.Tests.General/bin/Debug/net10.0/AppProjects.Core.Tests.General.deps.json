@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v10.0": {
       "AppProjects.Core.Tests.General/1.0.0": {
         "dependencies": {
+          "AppProject.Core.Tests": "1.0.0",
+          "AppProject.Utils": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.14.0",
           "NUnit": "4.3.2",
           "NUnit3TestAdapter": "5.0.0"
@@ -24,6 +26,17 @@
           }
         }
       },
+      "Microsoft.AspNetCore.OpenApi/10.0.11": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.7.5"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.11.0",
+            "fileVersion": "10.0.1126.37416"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.14.0": {
         "runtime": {
           "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -36,6 +49,14 @@
         "dependencies": {
           "Microsoft.CodeCoverage": "17.14.0",
           "Microsoft.TestPlatform.TestHost": "17.14.0"
+        }
+      },
+      "Microsoft.OpenApi/2.7.5": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.7.5.0",
+            "fileVersion": "2.7.5.0"
+          }
         }
       },
       "Microsoft.Testing.Extensions.Telemetry/1.5.3": {
@@ -527,6 +548,228 @@
           "Microsoft.Testing.Extensions.VSTestBridge": "1.5.3",
           "Microsoft.Testing.Platform.MSBuild": "1.5.3"
         }
+      },
+      "AppProject.Core.API/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Controllers.General": "1.0.0",
+          "AppProject.Core.Infraestructure.AI": "1.0.0",
+          "AppProject.Core.Infraestructure.Database": "1.0.0",
+          "AppProject.Core.Infraestructure.Email": "1.0.0",
+          "AppProject.Core.Infraestructure.Jobs": "1.0.0",
+          "AppProject.Core.Services": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "10.0.11"
+        },
+        "runtime": {
+          "AppProject.Core.API.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Contracts/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Controllers.General/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Core.Services.General": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Controllers.General.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Infraestructure.AI/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infraestructure.AI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Infraestructure.Database/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infraestructure.Database.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Infraestructure.Email/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infraestructure.Email.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Infraestructure.Jobs/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infraestructure.Jobs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Models/1.0.0": {
+        "dependencies": {
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Models": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Models.General/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Models.General.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Services/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Infraestructure.AI": "1.0.0",
+          "AppProject.Core.Infraestructure.Database": "1.0.0",
+          "AppProject.Core.Infraestructure.Email": "1.0.0",
+          "AppProject.Core.Infraestructure.Jobs": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Models": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Services.General/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Core.Services": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Services.General.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Tests/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.API": "1.0.0",
+          "AppProject.Utils": "1.0.0",
+          "Microsoft.NET.Test.Sdk": "17.14.0",
+          "NUnit": "4.3.2",
+          "NUnit3TestAdapter": "5.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Tests.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Exceptions/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Exceptions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Models/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Resources/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Resources.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Utils/1.0.0": {
+        "runtime": {
+          "AppProject.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -543,6 +786,13 @@
       "path": "microsoft.applicationinsights/2.22.0",
       "hashPath": "microsoft.applicationinsights.2.22.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.OpenApi/10.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R/1EATnPLU+gRfB6lwVkMcymmyAY5ppBBdRN/5lhNEiT3xP1sWccuSFkU/f1lQvN/WgRq5Vn8AhCdE3fqgsL/w==",
+      "path": "microsoft.aspnetcore.openapi/10.0.11",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512"
+    },
     "Microsoft.CodeCoverage/17.14.0": {
       "type": "package",
       "serviceable": true,
@@ -556,6 +806,13 @@
       "sha512": "sha512-rTtdOm6C96q9QgP3mS8nUGPGPh5Xm2HnBYJggNmNrJ3LDmX9lJuUIgnJEfvX6wSQY4swUMiCcIXd3OkjhYCgtw==",
       "path": "microsoft.net.test.sdk/17.14.0",
       "hashPath": "microsoft.net.test.sdk.17.14.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/2.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
+      "path": "microsoft.openapi/2.7.5",
+      "hashPath": "microsoft.openapi.2.7.5.nupkg.sha512"
     },
     "Microsoft.Testing.Extensions.Telemetry/1.5.3": {
       "type": "package",
@@ -626,6 +883,86 @@
       "sha512": "sha512-sy4cLoUAdE6TDM4wNX5gmNCyhMev5wUz4cA6ZRf/aON9vf9t4xTVGLj/4huhDKcS4dFfmVVcgcP70yC7WC9kKg==",
       "path": "nunit3testadapter/5.0.0",
       "hashPath": "nunit3testadapter.5.0.0.nupkg.sha512"
+    },
+    "AppProject.Core.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Controllers.General/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Infraestructure.AI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Infraestructure.Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Infraestructure.Email/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Infraestructure.Jobs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Models.General/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Services.General/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

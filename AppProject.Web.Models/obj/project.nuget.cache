@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "URWmZ2XVwbU=",
+  "dgSpecHash": "ZOf4OMZ/Egw=",
   "success": true,
   "projectFilePath": "C:\\course\\dotnet-template\\AppProject.Web.Models\\AppProject.Web.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\23001106\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
   "logs": []
 }

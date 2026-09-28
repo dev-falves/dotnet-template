@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jeVurbAPung=",
+  "dgSpecHash": "v1YzH8Hu4ZM=",
   "success": true,
   "projectFilePath": "C:\\course\\dotnet-template\\AppProject.Core.Controllers.General\\AppProject.Core.Controllers.General.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\23001106\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
   "logs": []
 }

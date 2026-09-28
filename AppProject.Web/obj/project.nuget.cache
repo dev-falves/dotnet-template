@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8gVzmGDSYLI=",
+  "dgSpecHash": "j7SCpNL8E8U=",
   "success": true,
   "projectFilePath": "C:\\course\\dotnet-template\\AppProject.Web\\AppProject.Web.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.jsinterop.webassembly\\10.0.11\\microsoft.jsinterop.webassembly.10.0.11.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.11\\microsoft.net.illink.tasks.10.0.11.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.11\\microsoft.net.sdk.webassembly.pack.10.0.11.nupkg.sha512",
+    "C:\\Users\\23001106\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\10.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.10.0.11.nupkg.sha512"
   ],
   "logs": []

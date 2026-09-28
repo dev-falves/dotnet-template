@@ -9,3 +9,9 @@ C:\course\dotnet-template\AppProject.Models\obj\Debug\net10.0\AppProject.Models.
 C:\course\dotnet-template\AppProject.Models\obj\Debug\net10.0\refint\AppProject.Models.dll
 C:\course\dotnet-template\AppProject.Models\obj\Debug\net10.0\AppProject.Models.pdb
 C:\course\dotnet-template\AppProject.Models\obj\Debug\net10.0\ref\AppProject.Models.dll
+C:\course\dotnet-template\AppProject.Models\bin\Debug\net10.0\.xml
+C:\course\dotnet-template\AppProject.Models\bin\Debug\net10.0\AppProject.Utils.dll
+C:\course\dotnet-template\AppProject.Models\bin\Debug\net10.0\AppProject.Utils.pdb
+C:\course\dotnet-template\AppProject.Models\obj\Debug\net10.0\AppProject.Models.csproj.AssemblyReference.cache
+C:\course\dotnet-template\AppProject.Models\obj\Debug\net10.0\AppProject.Models.sourcelink.json
+C:\course\dotnet-template\AppProject.Models\obj\Debug\net10.0\AppProje.8EE8FD09.Up2Date

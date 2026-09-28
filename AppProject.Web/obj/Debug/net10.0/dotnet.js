@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "AppProject.Web",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-wqPX8FiY+64UhI5T83tnaBd12OB4GqdS4gAmuB20CWw=",
+    "hash": "sha256-YZX1bnhR7t29gZRE5cDh7khjWXdeQ7oqP5cqBc4Em9s=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.vzj2a6aakt.js"
@@ -1235,6 +1235,84 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "cache": "force-cache"
       },
       {
+        "virtualPath": "AppProject.Core.Models.wasm",
+        "name": "AppProject.Core.Models.1elaz3kqxj.wasm",
+        "hash": "sha256-yTlVIUX61WYmZT1/UI4tgQsdSzKOQjNyolKtKTy2dQ0=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Core.Models.General.wasm",
+        "name": "AppProject.Core.Models.General.4uv3b3gu3c.wasm",
+        "hash": "sha256-FOVjCZ14BcPSyte9ITzPaLxkc2/MavqeogNClk64wMU=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Exceptions.wasm",
+        "name": "AppProject.Exceptions.eue4pks1bs.wasm",
+        "hash": "sha256-2lL4NzM1ecuu66BKJrPiQGzD3z5I3gd1e6f7mmCkQyw=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Models.wasm",
+        "name": "AppProject.Models.izm2zdjhf3.wasm",
+        "hash": "sha256-3qcoethf1vdjOrkE7hZvI1m8eLhGDjC8TjgOiCIwFc4=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Resources.wasm",
+        "name": "AppProject.Resources.q11okme0pk.wasm",
+        "hash": "sha256-slj4M/uvZxOhOys8cxlNzr4/ivLxcTQ2Vj20NRwtgRA=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Utils.wasm",
+        "name": "AppProject.Utils.1k576i1rao.wasm",
+        "hash": "sha256-H8pnkblRmOD4kDoBFzHtVJLT4lHrfTpWhZhPUvrtU+0=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.ApiClient.wasm",
+        "name": "AppProject.Web.ApiClient.f3v3629yhq.wasm",
+        "hash": "sha256-K952NdQa2AJZwMHoSu1NdDBTCZnlHL4bd+zqi0r37sA=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.ApiClient.General.wasm",
+        "name": "AppProject.Web.ApiClient.General.vi31ecvd1r.wasm",
+        "hash": "sha256-6YnPUaaZdhbg/j9RDj1rYwmcavhJntAq/ljjiLesSCY=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.Framework.wasm",
+        "name": "AppProject.Web.Framework.4unqa03qja.wasm",
+        "hash": "sha256-1ArybRtXluyUGllWuw+zRK1LZRR08T8CVcBUTuulbuM=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.General.wasm",
+        "name": "AppProject.Web.General.wuhkgpnr3g.wasm",
+        "hash": "sha256-mCQP4CpJUkbEauH+VdyFYkA0iNCFNyIuMYZb7oaxRgk=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.Models.wasm",
+        "name": "AppProject.Web.Models.kn9031cmyf.wasm",
+        "hash": "sha256-IAiMMl/sF6P+UH0vqgHEvKhRTq+VVFSNCklGZLecCVU=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.Models.General.wasm",
+        "name": "AppProject.Web.Models.General.88pml50ura.wasm",
+        "hash": "sha256-OBJ+9sNSUyIUprpT8PY0k/Z+8djg32QxyQqfUoFQ4AA=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.Shared.wasm",
+        "name": "AppProject.Web.Shared.dxhnm4d2li.wasm",
+        "hash": "sha256-f4+zNf8j/7zW7UdpmNVgu/yiFkpHagU3Ripjv6NyLew=",
+        "cache": "force-cache"
+      },
+      {
         "virtualPath": "Microsoft.DotNet.HotReload.WebAssembly.Browser.wasm",
         "name": "Microsoft.DotNet.HotReload.WebAssembly.Browser.jiityjz7hu.wasm",
         "hash": "sha256-BX/NSxLH9vLRxg5GuZdFrw4C/vcWnCCxbNZ7O0uVs6Q=",
@@ -1242,16 +1320,94 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "AppProject.Web.wasm",
-        "name": "AppProject.Web.6kq5zm7dca.wasm",
-        "hash": "sha256-tuDlysrdcJYvpc9YJ3citeHmkE4/R5f6O7GtPVmmj84=",
+        "name": "AppProject.Web.xgcfh8du98.wasm",
+        "hash": "sha256-H/JjEKnfPd6oFoD8ZL5tPTb4P7FAEp/3BW35Lgbe5M0=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
+        "virtualPath": "AppProject.Utils.pdb",
+        "name": "AppProject.Utils.srwrvzskdh.pdb",
+        "hash": "sha256-WHbptslSmoKTZUCnRNCh/3+ZDJhhEJbSpQcWR7qUBmE=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.ApiClient.pdb",
+        "name": "AppProject.Web.ApiClient.b7w58l7e2t.pdb",
+        "hash": "sha256-uWEY0EJDkUD6jNFchiQZ8HLxNOOxdlGUmdA7IzLfA64=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.Framework.pdb",
+        "name": "AppProject.Web.Framework.t5d6dz38d8.pdb",
+        "hash": "sha256-IVFyfbYkR0VuN4WsuTDAm8MPtYlSlBWP4feIWlVNCiY=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.General.pdb",
+        "name": "AppProject.Web.General.zsmhz9z41v.pdb",
+        "hash": "sha256-s4QC+XCSVB4xDCA7G7ZUS7R9b1DiwHGfPW5Jm8NHMxk=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.Models.pdb",
+        "name": "AppProject.Web.Models.e1p07dnc9h.pdb",
+        "hash": "sha256-PlZfA2ukKWXeQn1jrqii3DPuWGO6xcSA2DKCLrFQa+o=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.Shared.pdb",
+        "name": "AppProject.Web.Shared.76b4tza1tz.pdb",
+        "hash": "sha256-j5oMGE8PSLNMeqLy//lUPLr3YUhV9xK3Oahl8c+O1gQ=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Core.Models.pdb",
+        "name": "AppProject.Core.Models.gi2gorlvwr.pdb",
+        "hash": "sha256-SBvsin7TsHzee1DvZf/uJt3TGOnsZgPvQ17f2rP5IDo=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Core.Models.General.pdb",
+        "name": "AppProject.Core.Models.General.49jppqcrz6.pdb",
+        "hash": "sha256-SPEHc9ie54XMQNUnlwcUj2VFqzhqJ5pjbcCTFZHvkj8=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Exceptions.pdb",
+        "name": "AppProject.Exceptions.fd1h2u6my9.pdb",
+        "hash": "sha256-zYT3zBTUAEON6gde29H4QY4m36MBW3004c4jdfLGQxc=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Models.pdb",
+        "name": "AppProject.Models.kd2hq841mo.pdb",
+        "hash": "sha256-uN8jHchAO7SxO8OBZLqmrDQf/I1TBQK9GQDFbW3oL2o=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Resources.pdb",
+        "name": "AppProject.Resources.yhguuwm170.pdb",
+        "hash": "sha256-+lJ0DHcwq13hqtAbdr9f5Qg0JpIZMGfbm/Lv6d5kqTY=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.ApiClient.General.pdb",
+        "name": "AppProject.Web.ApiClient.General.g02ap9pxf2.pdb",
+        "hash": "sha256-UIqygrsCtS278uC4pgFEUzD/LVQ8O0/J9jAuoxKjM/o=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "AppProject.Web.Models.General.pdb",
+        "name": "AppProject.Web.Models.General.x3opuwzrtu.pdb",
+        "hash": "sha256-s2ujfZbqPGeYSiAubfveaktyJmTyAxX2flKkB970Jwg=",
+        "cache": "force-cache"
+      },
+      {
         "virtualPath": "AppProject.Web.pdb",
-        "name": "AppProject.Web.hsgq1igiia.pdb",
-        "hash": "sha256-f3/4khwD5iOfyVscspKwL1D67DKfgyq6rde/r+XTtH4=",
+        "name": "AppProject.Web.u9k2lkg41f.pdb",
+        "hash": "sha256-3if4TC5meIP3ZQsPJSin4+M9ZM7bnBFy5g1VgoMn/s4=",
         "cache": "force-cache"
       }
     ],
