@@ -21,6 +21,28 @@
           }
         }
       },
+      "Microsoft.AspNetCore.OpenApi/10.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "[2.7.5, 3.0.0)"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Microsoft.CodeCoverage/17.14.0": {
         "type": "package",
         "compile": {
@@ -52,6 +74,19 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+        }
+      },
+      "Microsoft.OpenApi/2.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Testing.Extensions.Telemetry/1.5.3": {
@@ -615,6 +650,265 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {},
           "build/netcoreapp3.1/NUnit3TestAdapter.targets": {}
         }
+      },
+      "AppProject.Core.API/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Controllers.General": "1.0.0",
+          "AppProject.Core.Infraestructure.AI": "1.0.0",
+          "AppProject.Core.Infraestructure.Database": "1.0.0",
+          "AppProject.Core.Infraestructure.Email": "1.0.0",
+          "AppProject.Core.Infraestructure.Jobs": "1.0.0",
+          "AppProject.Core.Services": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "10.0.11"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.API.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "AppProject.Core.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Contracts.dll": {}
+        }
+      },
+      "AppProject.Core.Controllers.General/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Core.Services.General": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Controllers.General.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Controllers.General.dll": {}
+        }
+      },
+      "AppProject.Core.Infraestructure.AI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Infraestructure.AI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Infraestructure.AI.dll": {}
+        }
+      },
+      "AppProject.Core.Infraestructure.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Infraestructure.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Infraestructure.Database.dll": {}
+        }
+      },
+      "AppProject.Core.Infraestructure.Email/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Infraestructure.Email.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Infraestructure.Email.dll": {}
+        }
+      },
+      "AppProject.Core.Infraestructure.Jobs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Infraestructure.Jobs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Infraestructure.Jobs.dll": {}
+        }
+      },
+      "AppProject.Core.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Models": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Models.dll": {}
+        }
+      },
+      "AppProject.Core.Models.General/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Models.General.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Models.General.dll": {}
+        }
+      },
+      "AppProject.Core.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Contracts": "1.0.0",
+          "AppProject.Core.Infraestructure.AI": "1.0.0",
+          "AppProject.Core.Infraestructure.Database": "1.0.0",
+          "AppProject.Core.Infraestructure.Email": "1.0.0",
+          "AppProject.Core.Infraestructure.Jobs": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Models": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Services.dll": {}
+        }
+      },
+      "AppProject.Core.Services.General/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Core.Services": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Services.General.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Services.General.dll": {}
+        }
+      },
+      "AppProject.Core.Tests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.API": "1.0.0",
+          "AppProject.Utils": "1.0.0",
+          "Microsoft.NET.Test.Sdk": "17.14.0",
+          "NUnit": "4.3.2",
+          "NUnit.Analyzers": "4.7.0",
+          "NUnit3TestAdapter": "5.0.0",
+          "coverlet.collector": "6.0.4"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Tests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Tests.dll": {}
+        }
+      },
+      "AppProject.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Exceptions.dll": {}
+        }
+      },
+      "AppProject.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Models.dll": {}
+        }
+      },
+      "AppProject.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Resources.dll": {}
+        }
+      },
+      "AppProject.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/AppProject.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Utils.dll": {}
+        }
       }
     }
   },
@@ -710,6 +1004,24 @@
         "microsoft.applicationinsights.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.OpenApi/10.0.11": {
+      "sha512": "R/1EATnPLU+gRfB6lwVkMcymmyAY5ppBBdRN/5lhNEiT3xP1sWccuSFkU/f1lQvN/WgRq5Vn8AhCdE3fqgsL/w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/10.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.OpenApi.SourceGenerators.dll",
+        "build/Microsoft.AspNetCore.OpenApi.targets",
+        "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
+      ]
+    },
     "Microsoft.CodeCoverage/17.14.0": {
       "sha512": "z2GYXGG6LjGoumT59xSB2dMnqSwQBjkxdDJmSJHwy5nPtZ435GXa6wj5hz/lRrAZ7NyXXxZNXVsiHXzHRru5eA==",
       "type": "package",
@@ -796,6 +1108,24 @@
         "lib/net8.0/_._",
         "microsoft.net.test.sdk.17.14.0.nupkg.sha512",
         "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "Microsoft.OpenApi/2.7.5": {
+      "sha512": "0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
+      "type": "package",
+      "path": "microsoft.openapi/2.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Microsoft.OpenApi.dll",
+        "lib/net8.0/Microsoft.OpenApi.pdb",
+        "lib/net8.0/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.2.7.5.nupkg.sha512",
+        "microsoft.openapi.nuspec"
       ]
     },
     "Microsoft.Testing.Extensions.Telemetry/1.5.3": {
@@ -1504,10 +1834,92 @@
         "nunit3testadapter.nuspec",
         "nunit_256.png"
       ]
+    },
+    "AppProject.Core.API/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.API/AppProject.Core.API.csproj",
+      "msbuildProject": "../AppProject.Core.API/AppProject.Core.API.csproj"
+    },
+    "AppProject.Core.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Contracts/AppProject.Core.Contracts.csproj",
+      "msbuildProject": "../AppProject.Core.Contracts/AppProject.Core.Contracts.csproj"
+    },
+    "AppProject.Core.Controllers.General/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Controllers.General/AppProject.Core.Controllers.General.csproj",
+      "msbuildProject": "../AppProject.Core.Controllers.General/AppProject.Core.Controllers.General.csproj"
+    },
+    "AppProject.Core.Infraestructure.AI/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Infraestructure.AI/AppProject.Core.Infraestructure.AI.csproj",
+      "msbuildProject": "../AppProject.Core.Infraestructure.AI/AppProject.Core.Infraestructure.AI.csproj"
+    },
+    "AppProject.Core.Infraestructure.Database/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Infraestructure.Database/AppProject.Core.Infraestructure.Database.csproj",
+      "msbuildProject": "../AppProject.Core.Infraestructure.Database/AppProject.Core.Infraestructure.Database.csproj"
+    },
+    "AppProject.Core.Infraestructure.Email/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Infraestructure.Email/AppProject.Core.Infraestructure.Email.csproj",
+      "msbuildProject": "../AppProject.Core.Infraestructure.Email/AppProject.Core.Infraestructure.Email.csproj"
+    },
+    "AppProject.Core.Infraestructure.Jobs/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Infraestructure.Jobs/AppProject.Core.Infraestructure.Jobs.csproj",
+      "msbuildProject": "../AppProject.Core.Infraestructure.Jobs/AppProject.Core.Infraestructure.Jobs.csproj"
+    },
+    "AppProject.Core.Models/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Models/AppProject.Core.Models.csproj",
+      "msbuildProject": "../AppProject.Core.Models/AppProject.Core.Models.csproj"
+    },
+    "AppProject.Core.Models.General/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Models.General/AppProject.Core.Models.General.csproj",
+      "msbuildProject": "../AppProject.Core.Models.General/AppProject.Core.Models.General.csproj"
+    },
+    "AppProject.Core.Services/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Services/AppProject.Core.Services.csproj",
+      "msbuildProject": "../AppProject.Core.Services/AppProject.Core.Services.csproj"
+    },
+    "AppProject.Core.Services.General/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Services.General/AppProject.Core.Services.General.csproj",
+      "msbuildProject": "../AppProject.Core.Services.General/AppProject.Core.Services.General.csproj"
+    },
+    "AppProject.Core.Tests/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Tests/AppProject.Core.Tests.csproj",
+      "msbuildProject": "../AppProject.Core.Tests/AppProject.Core.Tests.csproj"
+    },
+    "AppProject.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Exceptions/AppProject.Exceptions.csproj",
+      "msbuildProject": "../AppProject.Exceptions/AppProject.Exceptions.csproj"
+    },
+    "AppProject.Models/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Models/AppProject.Models.csproj",
+      "msbuildProject": "../AppProject.Models/AppProject.Models.csproj"
+    },
+    "AppProject.Resources/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Resources/AppProject.Resources.csproj",
+      "msbuildProject": "../AppProject.Resources/AppProject.Resources.csproj"
+    },
+    "AppProject.Utils/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Utils/AppProject.Utils.csproj",
+      "msbuildProject": "../AppProject.Utils/AppProject.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "AppProject.Core.Tests >= 1.0.0",
+      "AppProject.Utils >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.0",
       "NUnit >= 4.3.2",
       "NUnit.Analyzers >= 4.7.0",
@@ -1548,7 +1960,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\course\\dotnet-template\\AppProject.Core.Tests\\AppProject.Core.Tests.csproj": {
+              "projectPath": "C:\\course\\dotnet-template\\AppProject.Core.Tests\\AppProject.Core.Tests.csproj"
+            },
+            "C:\\course\\dotnet-template\\AppProject.Utils\\AppProject.Utils.csproj": {
+              "projectPath": "C:\\course\\dotnet-template\\AppProject.Utils\\AppProject.Utils.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

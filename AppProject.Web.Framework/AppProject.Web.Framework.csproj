@@ -13,4 +13,12 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppProject.Exceptions\AppProject.Exceptions.csproj" />
+    <ProjectReference Include="..\AppProject.Resources\AppProject.Resources.csproj" />
+    <ProjectReference Include="..\AppProject.Utils\AppProject.Utils.csproj" />
+    <ProjectReference Include="..\AppProject.Web.ApiClient\AppProject.Web.ApiClient.csproj" />
+    <ProjectReference Include="..\AppProject.Web.Models\AppProject.Web.Models.csproj" />
+  </ItemGroup>
+
 </Project>

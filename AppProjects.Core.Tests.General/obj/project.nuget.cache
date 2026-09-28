@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "bKRUk5DCh6k=",
+  "dgSpecHash": "j8pkOk3kIxc=",
   "success": true,
   "projectFilePath": "C:\\course\\dotnet-template\\AppProjects.Core.Tests.General\\AppProjects.Core.Tests.General.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\23001106\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
+    "C:\\Users\\23001106\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.codecoverage\\17.14.0\\microsoft.codecoverage.17.14.0.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.net.test.sdk\\17.14.0\\microsoft.net.test.sdk.17.14.0.nupkg.sha512",
+    "C:\\Users\\23001106\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.5.3\\microsoft.testing.extensions.telemetry.1.5.3.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.5.3\\microsoft.testing.extensions.trxreport.abstractions.1.5.3.nupkg.sha512",
     "C:\\Users\\23001106\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.5.3\\microsoft.testing.extensions.vstestbridge.1.5.3.nupkg.sha512",
