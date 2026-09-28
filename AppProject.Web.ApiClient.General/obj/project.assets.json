@@ -1,11 +1,164 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "AppProject.Core.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Models": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Models.dll": {}
+        }
+      },
+      "AppProject.Core.Models.General/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Core.Models.General.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Core.Models.General.dll": {}
+        }
+      },
+      "AppProject.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Exceptions.dll": {}
+        }
+      },
+      "AppProject.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Models.dll": {}
+        }
+      },
+      "AppProject.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Resources.dll": {}
+        }
+      },
+      "AppProject.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/AppProject.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Utils.dll": {}
+        }
+      },
+      "AppProject.Web.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Utils": "1.0.0",
+          "AppProject.Web.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Web.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Web.ApiClient.dll": {}
+        }
+      },
+      "AppProject.Web.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AppProject.Models": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppProject.Web.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppProject.Web.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AppProject.Core.Models/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Models/AppProject.Core.Models.csproj",
+      "msbuildProject": "../AppProject.Core.Models/AppProject.Core.Models.csproj"
+    },
+    "AppProject.Core.Models.General/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Core.Models.General/AppProject.Core.Models.General.csproj",
+      "msbuildProject": "../AppProject.Core.Models.General/AppProject.Core.Models.General.csproj"
+    },
+    "AppProject.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Exceptions/AppProject.Exceptions.csproj",
+      "msbuildProject": "../AppProject.Exceptions/AppProject.Exceptions.csproj"
+    },
+    "AppProject.Models/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Models/AppProject.Models.csproj",
+      "msbuildProject": "../AppProject.Models/AppProject.Models.csproj"
+    },
+    "AppProject.Resources/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Resources/AppProject.Resources.csproj",
+      "msbuildProject": "../AppProject.Resources/AppProject.Resources.csproj"
+    },
+    "AppProject.Utils/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Utils/AppProject.Utils.csproj",
+      "msbuildProject": "../AppProject.Utils/AppProject.Utils.csproj"
+    },
+    "AppProject.Web.ApiClient/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Web.ApiClient/AppProject.Web.ApiClient.csproj",
+      "msbuildProject": "../AppProject.Web.ApiClient/AppProject.Web.ApiClient.csproj"
+    },
+    "AppProject.Web.Models/1.0.0": {
+      "type": "project",
+      "path": "../AppProject.Web.Models/AppProject.Web.Models.csproj",
+      "msbuildProject": "../AppProject.Web.Models/AppProject.Web.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "AppProject.Core.Models.General >= 1.0.0",
+      "AppProject.Utils >= 1.0.0",
+      "AppProject.Web.ApiClient >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\23001106\\.nuget\\packages\\": {},
@@ -40,7 +193,17 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\course\\dotnet-template\\AppProject.Core.Models.General\\AppProject.Core.Models.General.csproj": {
+              "projectPath": "C:\\course\\dotnet-template\\AppProject.Core.Models.General\\AppProject.Core.Models.General.csproj"
+            },
+            "C:\\course\\dotnet-template\\AppProject.Utils\\AppProject.Utils.csproj": {
+              "projectPath": "C:\\course\\dotnet-template\\AppProject.Utils\\AppProject.Utils.csproj"
+            },
+            "C:\\course\\dotnet-template\\AppProject.Web.ApiClient\\AppProject.Web.ApiClient.csproj": {
+              "projectPath": "C:\\course\\dotnet-template\\AppProject.Web.ApiClient\\AppProject.Web.ApiClient.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
