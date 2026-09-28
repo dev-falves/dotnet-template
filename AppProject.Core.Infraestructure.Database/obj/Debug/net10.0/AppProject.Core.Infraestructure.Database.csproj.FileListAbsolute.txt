@@ -1,0 +1,11 @@
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\bin\Debug\net10.0\AppProject.Core.Infraestructure.Database.deps.json
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\bin\Debug\net10.0\AppProject.Core.Infraestructure.Database.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\bin\Debug\net10.0\AppProject.Core.Infraestructure.Database.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\obj\Debug\net10.0\AppProject.Core.Infraestructure.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\obj\Debug\net10.0\AppProject.Core.Infraestructure.Database.AssemblyInfoInputs.cache
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\obj\Debug\net10.0\AppProject.Core.Infraestructure.Database.AssemblyInfo.cs
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\obj\Debug\net10.0\AppProject.Core.Infraestructure.Database.csproj.CoreCompileInputs.cache
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\obj\Debug\net10.0\AppProject.Core.Infraestructure.Database.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\obj\Debug\net10.0\refint\AppProject.Core.Infraestructure.Database.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\obj\Debug\net10.0\AppProject.Core.Infraestructure.Database.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Database\obj\Debug\net10.0\ref\AppProject.Core.Infraestructure.Database.dll

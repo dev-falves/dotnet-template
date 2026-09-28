@@ -1,0 +1,11 @@
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\bin\Debug\net10.0\AppProject.Core.Infraestructure.AI.deps.json
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\bin\Debug\net10.0\AppProject.Core.Infraestructure.AI.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\bin\Debug\net10.0\AppProject.Core.Infraestructure.AI.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\obj\Debug\net10.0\AppProject.Core.Infraestructure.AI.GeneratedMSBuildEditorConfig.editorconfig
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\obj\Debug\net10.0\AppProject.Core.Infraestructure.AI.AssemblyInfoInputs.cache
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\obj\Debug\net10.0\AppProject.Core.Infraestructure.AI.AssemblyInfo.cs
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\obj\Debug\net10.0\AppProject.Core.Infraestructure.AI.csproj.CoreCompileInputs.cache
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\obj\Debug\net10.0\AppProject.Core.Infraestructure.AI.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\obj\Debug\net10.0\refint\AppProject.Core.Infraestructure.AI.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\obj\Debug\net10.0\AppProject.Core.Infraestructure.AI.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.AI\obj\Debug\net10.0\ref\AppProject.Core.Infraestructure.AI.dll

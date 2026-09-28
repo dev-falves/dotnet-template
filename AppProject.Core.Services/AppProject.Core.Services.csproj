@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\AppProject.Core.Contracts\AppProject.Core.Contracts.csproj" />
+    <ProjectReference Include="..\AppProject.Core.Infraestructure.AI\AppProject.Core.Infraestructure.AI.csproj" />
+    <ProjectReference Include="..\AppProject.Core.Infraestructure.Database\AppProject.Core.Infraestructure.Database.csproj" />
+    <ProjectReference Include="..\AppProject.Core.Infraestructure.Email\AppProject.Core.Infraestructure.Email.csproj" />
+    <ProjectReference Include="..\AppProject.Core.Infraestructure.Jobs\AppProject.Core.Infraestructure.Jobs.csproj" />
+    <ProjectReference Include="..\AppProject.Core.Models.General\AppProject.Core.Models.General.csproj" />
+    <ProjectReference Include="..\AppProject.Exceptions\AppProject.Exceptions.csproj" />
+    <ProjectReference Include="..\AppProject.Models\AppProject.Models.csproj" />
+    <ProjectReference Include="..\AppProject.Resources\AppProject.Resources.csproj" />
+    <ProjectReference Include="..\AppProject.Utils\AppProject.Utils.csproj" />
+  </ItemGroup>
+</Project>

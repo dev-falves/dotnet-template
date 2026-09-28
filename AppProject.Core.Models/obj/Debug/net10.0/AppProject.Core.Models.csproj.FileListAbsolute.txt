@@ -1,0 +1,11 @@
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Core.Models.deps.json
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Core.Models.dll
+C:\course\dotnet-template\AppProject.Core.Models\bin\Debug\net10.0\AppProject.Core.Models.pdb
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.AssemblyInfoInputs.cache
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.AssemblyInfo.cs
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.csproj.CoreCompileInputs.cache
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.dll
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\refint\AppProject.Core.Models.dll
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\AppProject.Core.Models.pdb
+C:\course\dotnet-template\AppProject.Core.Models\obj\Debug\net10.0\ref\AppProject.Core.Models.dll

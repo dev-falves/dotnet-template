@@ -1,0 +1,11 @@
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\bin\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.deps.json
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\bin\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\bin\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\obj\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.GeneratedMSBuildEditorConfig.editorconfig
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\obj\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.AssemblyInfoInputs.cache
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\obj\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.AssemblyInfo.cs
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\obj\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.csproj.CoreCompileInputs.cache
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\obj\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\obj\Debug\net10.0\refint\AppProject.Core.Infraestructure.Jobs.dll
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\obj\Debug\net10.0\AppProject.Core.Infraestructure.Jobs.pdb
+C:\course\dotnet-template\AppProject.Core.Infraestructure.Jobs\obj\Debug\net10.0\ref\AppProject.Core.Infraestructure.Jobs.dll

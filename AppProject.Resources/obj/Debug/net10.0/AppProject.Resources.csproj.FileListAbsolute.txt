@@ -1,0 +1,11 @@
+C:\course\dotnet-template\AppProject.Resources\bin\Debug\net10.0\AppProject.Resources.deps.json
+C:\course\dotnet-template\AppProject.Resources\bin\Debug\net10.0\AppProject.Resources.dll
+C:\course\dotnet-template\AppProject.Resources\bin\Debug\net10.0\AppProject.Resources.pdb
+C:\course\dotnet-template\AppProject.Resources\obj\Debug\net10.0\AppProject.Resources.GeneratedMSBuildEditorConfig.editorconfig
+C:\course\dotnet-template\AppProject.Resources\obj\Debug\net10.0\AppProject.Resources.AssemblyInfoInputs.cache
+C:\course\dotnet-template\AppProject.Resources\obj\Debug\net10.0\AppProject.Resources.AssemblyInfo.cs
+C:\course\dotnet-template\AppProject.Resources\obj\Debug\net10.0\AppProject.Resources.csproj.CoreCompileInputs.cache
+C:\course\dotnet-template\AppProject.Resources\obj\Debug\net10.0\AppProject.Resources.dll
+C:\course\dotnet-template\AppProject.Resources\obj\Debug\net10.0\refint\AppProject.Resources.dll
+C:\course\dotnet-template\AppProject.Resources\obj\Debug\net10.0\AppProject.Resources.pdb
+C:\course\dotnet-template\AppProject.Resources\obj\Debug\net10.0\ref\AppProject.Resources.dll

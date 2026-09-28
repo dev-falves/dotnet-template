@@ -1,0 +1,11 @@
+C:\course\dotnet-template\AppProject.Web.ApiClient\bin\Debug\net10.0\AppProject.Web.ApiClient.deps.json
+C:\course\dotnet-template\AppProject.Web.ApiClient\bin\Debug\net10.0\AppProject.Web.ApiClient.dll
+C:\course\dotnet-template\AppProject.Web.ApiClient\bin\Debug\net10.0\AppProject.Web.ApiClient.pdb
+C:\course\dotnet-template\AppProject.Web.ApiClient\obj\Debug\net10.0\AppProject.Web.ApiClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\course\dotnet-template\AppProject.Web.ApiClient\obj\Debug\net10.0\AppProject.Web.ApiClient.AssemblyInfoInputs.cache
+C:\course\dotnet-template\AppProject.Web.ApiClient\obj\Debug\net10.0\AppProject.Web.ApiClient.AssemblyInfo.cs
+C:\course\dotnet-template\AppProject.Web.ApiClient\obj\Debug\net10.0\AppProject.Web.ApiClient.csproj.CoreCompileInputs.cache
+C:\course\dotnet-template\AppProject.Web.ApiClient\obj\Debug\net10.0\AppProject.Web.ApiClient.dll
+C:\course\dotnet-template\AppProject.Web.ApiClient\obj\Debug\net10.0\refint\AppProject.Web.ApiClient.dll
+C:\course\dotnet-template\AppProject.Web.ApiClient\obj\Debug\net10.0\AppProject.Web.ApiClient.pdb
+C:\course\dotnet-template\AppProject.Web.ApiClient\obj\Debug\net10.0\ref\AppProject.Web.ApiClient.dll

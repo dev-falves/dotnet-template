@@ -1,0 +1,11 @@
+C:\course\dotnet-template\AppProject.Core.Controllers.General\bin\Debug\net10.0\AppProject.Core.Controllers.General.deps.json
+C:\course\dotnet-template\AppProject.Core.Controllers.General\bin\Debug\net10.0\AppProject.Core.Controllers.General.dll
+C:\course\dotnet-template\AppProject.Core.Controllers.General\bin\Debug\net10.0\AppProject.Core.Controllers.General.pdb
+C:\course\dotnet-template\AppProject.Core.Controllers.General\obj\Debug\net10.0\AppProject.Core.Controllers.General.GeneratedMSBuildEditorConfig.editorconfig
+C:\course\dotnet-template\AppProject.Core.Controllers.General\obj\Debug\net10.0\AppProject.Core.Controllers.General.AssemblyInfoInputs.cache
+C:\course\dotnet-template\AppProject.Core.Controllers.General\obj\Debug\net10.0\AppProject.Core.Controllers.General.AssemblyInfo.cs
+C:\course\dotnet-template\AppProject.Core.Controllers.General\obj\Debug\net10.0\AppProject.Core.Controllers.General.csproj.CoreCompileInputs.cache
+C:\course\dotnet-template\AppProject.Core.Controllers.General\obj\Debug\net10.0\AppProject.Core.Controllers.General.dll
+C:\course\dotnet-template\AppProject.Core.Controllers.General\obj\Debug\net10.0\refint\AppProject.Core.Controllers.General.dll
+C:\course\dotnet-template\AppProject.Core.Controllers.General\obj\Debug\net10.0\AppProject.Core.Controllers.General.pdb
+C:\course\dotnet-template\AppProject.Core.Controllers.General\obj\Debug\net10.0\ref\AppProject.Core.Controllers.General.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AppProject.Core.Infraestructure.AI/1.0.0": {
+        "runtime": {
+          "AppProject.Core.Infraestructure.AI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppProject.Core.Infraestructure.AI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

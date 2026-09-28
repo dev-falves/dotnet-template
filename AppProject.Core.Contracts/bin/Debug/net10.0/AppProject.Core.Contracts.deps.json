@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AppProject.Core.Contracts/1.0.0": {
+        "runtime": {
+          "AppProject.Core.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppProject.Core.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
